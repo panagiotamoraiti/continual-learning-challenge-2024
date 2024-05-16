@@ -118,14 +118,14 @@ def main(args):
     # Implement your own Strategy in MyStrategy and replace this example Approach
     # Uncomment this line to test LwF baseline with unlabelled pool usage
     cl_strategy = MyStrategyBest(model=model,
-                             optimizer=optimizer,
-                             criterion=CrossEntropyLoss(),
-                             train_mb_size=32, # 64
-                             train_epochs=train_epochs+1, 
-                             eval_mb_size=256,
-                             device=device,
-                             plugins=competition_plugins + plugins,
-                             evaluator=eval_plugin)
+                                 optimizer=optimizer,
+                                 criterion=CrossEntropyLoss(),
+                                 train_mb_size=32, # 64
+                                 train_epochs=train_epochs+1, 
+                                 eval_mb_size=256,
+                                 device=device,
+                                 plugins=competition_plugins + plugins,
+                                 evaluator=eval_plugin)
                                  
     # Initialize dict for prototypes
     buffer_size = 100 # For each class store one sample
