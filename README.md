@@ -36,3 +36,8 @@ Accuracy s3: 0.1442 (+6.46%),
 Avg. Convergence Rate: 0.007, 
 **Average Accuracy: 0.1668 (+7.29%)**
 
+Team Members:
+-Panagiota Moraiti 
+-Efstathios Karypidis
+
+
