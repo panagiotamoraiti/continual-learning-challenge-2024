@@ -2,7 +2,9 @@
 # continual-learning-challenge-2024
 
 5th CLVISION CVPR Challenge: https://sites.google.com/view/clvision2024/challenge
+
 Strategies were be submitted at the CodaLab competition: https://codalab.lisn.upsaclay.fr/competitions/17780
+
 This repository is based on the challenge DevKit: https://github.com/ContinualAI/clvision-challenge-2024
 
 ## Challenge Overview
