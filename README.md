@@ -27,21 +27,10 @@ Less forgetful learning (LFL) leverages features extracted from both previous an
 
 Finally, we use learning rate scheduler and early stopping to restore the best model. We limit the number of training epochs to 15 to prevent overfitting to current classes.
 
-## Results
-baseline_clvision24: 
-Accuracy s1: 7.96, 
-Accuracy s2: 10.66, 
-Accuracy s3: 9.54, 
-**Average Accuracy: 9.39**
-	    	                	             	             
-pre_selection phase: 
-Accuracy s1: 14.42 (+6.46%), 
-Accuracy s2: 19.02 (+8.36%), 
-Accuracy s3: 16.60 (+7.06%), 
-**Average Accuracy: 16.68 (+7.29%)**
+## Results	    
+| Phase          | Scenario 1              | Scenario 2              | Scenario 3              | Average Accuracy   |
+|----------------|-------------------------|-------------------------|-------------------------|--------------------|
+| Baseline       | 7.96                    | 10.66                   | 9.54                    | 9.39               |
+| Pre-selection  | 14.42 (+6.46%)          | 19.02 (+8.36%)          | 16.60 (+7.06%)          | **16.68 (+7.29%)** |
+| Final          | 17.49 (+9.53%)          | 22.44 (+11.78%)         | 23.64 (+14.10%)         | **21.19 (+11.80%)**|
 
-final phase: 
-Accuracy s1: 17.49 (+9.53%), 
-Accuracy s2: 22.44 (+11.78%), 
-Accuracy s3: 23.64 (+14.10%), 
-**Average Accuracy: 21.19 (+11.80%)**
