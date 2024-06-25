@@ -7,6 +7,8 @@ Strategies were be submitted at the CodaLab competition: https://codalab.lisn.up
 
 This repository is based on the challenge DevKit: https://github.com/ContinualAI/clvision-challenge-2024
 
+Challenge Results: https://sites.google.com/view/clvision2024/challenge/challenge-results?authuser=0
+
 ## Challenge Overview
 It is fair to assume that data is not cheap to acquire, store and label in real-world machine learning applications. Therefore, it is crucial to develop strategies that are flexible enough to learn from streams of experiences, without forgetting what has been learned previously. Additionally, contextual unlabelled data can also be exploited to integrate additional information into the model.
 
