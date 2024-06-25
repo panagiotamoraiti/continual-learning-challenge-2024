@@ -10,6 +10,10 @@ This repository is based on the challenge DevKit: https://github.com/ContinualAI
 ## Challenge Overview
 It is fair to assume that data is not cheap to acquire, store and label in real-world machine learning applications. Therefore, it is crucial to develop strategies that are flexible enough to learn from streams of experiences, without forgetting what has been learned previously. Additionally, contextual unlabelled data can also be exploited to integrate additional information into the model.
 
+## Team Members:
+- Panagiota Moraiti 
+- Efstathios Karypidis
+
 ## Our Approach
 In this repository, we extend the baseline strategy, which already employs the well-known Learning without Forgetting (LWF) approach for the unlabelled data stream. We also apply the LWF strategy to the labelled data stream. 
 Learning without Forgetting (LWF) enables a model to learn new tasks while retaining knowledge of previous tasks by using knowledge distillation to minimize changes in the model's outputs for old task.
@@ -23,21 +27,19 @@ Finally, we use learning rate scheduler and early stopping to restore the best m
 
 ## Results
 baseline_clvision24: 
-Accuracy s1: 0.0954, 
-Accuracy s2: 0.1066, 
-Accuracy s3: 0.0796, 
-Avg. Convergence Rate: 0.007, 
-**Average Accuracy: 0.0939**
+Accuracy s1: 7.96, 
+Accuracy s2: 10.66, 
+Accuracy s3: 9.54, 
+**Average Accuracy: 9.39**
 	    	                	             	             
-our_approach: 
-Accuracy s1: 0.1660 (+7.06%), 
-Accuracy s2: 0.1902 (+8.36%), 
-Accuracy s3: 0.1442 (+6.46%), 
-Avg. Convergence Rate: 0.007, 
-**Average Accuracy: 0.1668 (+7.29%)**
+pre_selection phase: 
+Accuracy s1: 14.42 (+6.46%), 
+Accuracy s2: 19.02 (+8.36%), 
+Accuracy s3: 16.60 (+7.06%), 
+**Average Accuracy: 16.68 (+7.29%)**
 
-Team Members:
-- Panagiota Moraiti 
-- Efstathios Karypidis
-
-
+final phase: 
+Accuracy s1: 17.49 (+9.53%), 
+Accuracy s2: 22.44 (+11.78%), 
+Accuracy s3: 23.64 (+14.10%), 
+**Average Accuracy: 21.19 (+11.80%)**
