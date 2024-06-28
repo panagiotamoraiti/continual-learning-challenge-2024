@@ -13,7 +13,7 @@ Challenge Results: https://sites.google.com/view/clvision2024/challenge/challeng
 It is fair to assume that data is not cheap to acquire, store and label in real-world machine learning applications. Therefore, it is crucial to develop strategies that are flexible enough to learn from streams of experiences, without forgetting what has been learned previously. Additionally, contextual unlabelled data can also be exploited to integrate additional information into the model.
 
 ## Baseline strategy
-A baseline strategy was provided by the organizers of the challenge. The baseline strategy applies the well-known Learning without Forgetting (LwF) strategy described in https://arxiv.org/abs/1606.09282 to the unlabelled data streams. 
+A baseline strategy was provided by the organizers of the challenge and applies the well-known Learning without Forgetting (LwF) strategy described in https://arxiv.org/abs/1606.09282 to the unlabelled data streams. 
 
 ## Team Members:
 - Panagiota Moraiti 
