@@ -31,6 +31,7 @@ Less forgetful learning (LFL) leverages features extracted from both previous an
 Finally, we use learning rate scheduler and early stopping to restore the best model. We limit the number of training epochs to 15 to prevent overfitting to current classes.
 
 Recorded Video of our Solution: https://drive.google.com/file/d/1Z0V8_36qyVzssQAZi36JcE-LokF706G6/view?usp=drive_link
+
 Presentation: https://drive.google.com/file/d/1Mkacx4i0VreI_Zceod7Jrc4TJJ08VG87/view?usp=drive_link
 
 ## Results	    
