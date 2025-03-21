@@ -29,7 +29,7 @@ Finally, we use learning rate scheduler and early stopping to restore the best m
 
 - **Recorded Video of Our Solution**: [Video](https://drive.google.com/file/d/1Z0V8_36qyVzssQAZi36JcE-LokF706G6/view?usp=drive_link)  
 - **Presentation Slides**: [Slides](https://drive.google.com/file/d/1Mkacx4i0VreI_Zceod7Jrc4TJJ08VG87/view?usp=drive_link)
-- - **Paper**: [Technical Report for the 5th CLVision Challenge at CVPR: Addressing the Class-Incremental with Repetition using Unlabeled Data - 4th Place Solution](https://arxiv.org/abs/2503.15697)
+- **Paper**: [Technical Report for the 5th CLVision Challenge at CVPR: Addressing the Class-Incremental with Repetition using Unlabeled Data - 4th Place Solution](https://arxiv.org/abs/2503.15697)
 
 ## Results	    
 | Phase          | Scenario 1              | Scenario 2              | Scenario 3              | Average Accuracy   |
