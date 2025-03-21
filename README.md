@@ -1,13 +1,10 @@
 # 5th CLVision Workshop @ CVPR 2024 Challenge
 # continual-learning-challenge-2024
 
-5th CLVISION CVPR Challenge: https://sites.google.com/view/clvision2024/challenge
-
-Strategies were submitted at the CodaLab competition: https://codalab.lisn.upsaclay.fr/competitions/17780
-
-This repository is based on the challenge DevKit: https://github.com/ContinualAI/clvision-challenge-2024
-
-Challenge Results: https://sites.google.com/view/clvision2024/challenge/challenge-results?authuser=0
+- **Challenge Website**: [CLVision 2024 Challenge](https://sites.google.com/view/clvision2024/challenge) 
+- **CodaLab Competition**: [CodaLab Competition Platform](https://codalab.lisn.upsaclay.fr/competitions/17780)   
+- **DevKit Repository**: [Challenge DevKit Repository](https://github.com/ContinualAI/clvision-challenge-2024)       
+- **Challenge Results**: [Final Challenge Results](https://sites.google.com/view/clvision2024/challenge/challenge-results)   
 
 ## Challenge Overview
 It is fair to assume that data is not cheap to acquire, store and label in real-world machine learning applications. Therefore, it is crucial to develop strategies that are flexible enough to learn from streams of experiences, without forgetting what has been learned previously. Additionally, contextual unlabelled data can also be exploited to integrate additional information into the model.
@@ -30,9 +27,9 @@ Less forgetful learning (LFL) leverages features extracted from both previous an
 
 Finally, we use learning rate scheduler and early stopping to restore the best model. We limit the number of training epochs to 15 to prevent overfitting to current classes.
 
-Recorded Video of our Solution: https://drive.google.com/file/d/1Z0V8_36qyVzssQAZi36JcE-LokF706G6/view?usp=drive_link
-
-Presentation: https://drive.google.com/file/d/1Mkacx4i0VreI_Zceod7Jrc4TJJ08VG87/view?usp=drive_link
+- **Recorded Video of Our Solution**: [Video](https://drive.google.com/file/d/1Z0V8_36qyVzssQAZi36JcE-LokF706G6/view?usp=drive_link)  
+- **Presentation Slides**: [Slides](https://drive.google.com/file/d/1Mkacx4i0VreI_Zceod7Jrc4TJJ08VG87/view?usp=drive_link)
+- - **Paper**: [Technical Report for the 5th CLVision Challenge at CVPR: Addressing the Class-Incremental with Repetition using Unlabeled Data - 4th Place Solution](https://drive.google.com/file/d/1Mkacx4i0VreI_Zceod7Jrc4TJJ08VG87/view?usp=drive_link](https://arxiv.org/abs/2503.15697)
 
 ## Results	    
 | Phase          | Scenario 1              | Scenario 2              | Scenario 3              | Average Accuracy   |
