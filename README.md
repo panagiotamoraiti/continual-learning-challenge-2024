@@ -38,3 +38,17 @@ Finally, we use learning rate scheduler and early stopping to restore the best m
 | Pre-selection  | 14.42 (+6.46%)          | 19.02 (+8.36%)          | 16.60 (+7.06%)          | **16.68 (+7.29%)** |
 | Final          | 17.49 (+9.53%)          | 22.44 (+11.78%)         | 23.64 (+14.10%)         | **21.19 (+11.80%)**|
 
+# Citation
+If you found this work useful in your research, please consider starring ⭐ us on GitHub and citing 📚 us in your research!
+```bibtex
+@misc{moraiti2025technicalreport5thclvision,
+      title={Technical Report for the 5th CLVision Challenge at CVPR: Addressing the Class-Incremental with Repetition using Unlabeled Data -- 4th Place Solution}, 
+      author={Panagiota Moraiti and Efstathios Karypidis},
+      year={2025},
+      eprint={2503.15697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.15697}, 
+}
+```
+
